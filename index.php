@@ -28,7 +28,7 @@ require_once 'includes/db.php';
         <div>
           <button onClick={() => this.openModal()}>Записаться!</button>
           <Modal isOpen={this.state.isModalOpen} onClose={() => this.closeModal()}>
-           <form action="index2.php" method="POST">
+           <form action="index.php" method="POST">
             <label> Время</label>
             <select name="select">
             <?php
